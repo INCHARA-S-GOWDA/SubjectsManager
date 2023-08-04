@@ -1,0 +1,62 @@
+body {
+  background-image: url('linedpaper/linedpaper_@2x.jpg');
+  width: 600px;
+  margin: 0 auto;
+  padding: 0;
+  font-family: courier, monospace;
+} 
+
+form {
+  color: #0d3a58;
+  font-size: 22px;
+}
+
+input[type="text"]{
+  background-color : #f1ecf0;
+}
+
+#addtobestudied {
+  background-color : #f1ecf0;
+  color: #ef810c;
+}
+
+#addalreadystudied {
+  background-color :#f1ecf0;
+  color: #550e60;
+}
+
+h1 {
+  color: #0a603e;
+  font-size: 50px;
+}
+
+h2 {
+  color: #9c32ee;
+  font-size: 42px;
+  letter-spacing: -2px;
+  text-align: left;
+}
+.list {
+  color: #98de20;
+  font-size: 22px;
+  padding: 0 !important;
+  width: 500px;
+  border: 1px solid #dedede;
+}
+.list li {
+  list-style: none;
+  background-color : #eed9b5;
+  border-bottom: 1px dotted #7b0707;
+  text-indent: 25px;
+  height: auto;
+  padding: 10px;
+  text-transform: capitalize;
+  color: #0a5485;
+}
+li a { /*for cross mark*/
+  float: right;
+  text-decoration: none;
+  color: rgb(227, 17, 17);
+}
+
+	
