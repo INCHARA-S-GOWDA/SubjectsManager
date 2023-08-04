@@ -6,9 +6,12 @@ subjects to be studied and the subjects that has already been studied. Here, I h
 the concepts of Web Technologies namely HTML,CSS and JAVASCRIPT.
 
 The outcomes are :
-• The satisfaction of completing a task\n
+• The satisfaction of completing a task
+
 • Good comments from teachers
+
 • Being perceived as successful by your peers or parents
+
 • Long-term success, i.e. top grades and a place at your university of choice.
 
 THIS PROJECT IS CREATED BY INCHARA S GOWDA, 
