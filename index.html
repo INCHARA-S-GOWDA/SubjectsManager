@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<title>Shopping List</title>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+	<script type="text/javascript" src="subjectlist.js"></script>
+	<link rel="stylesheet" type="text/css" href="list.css">
+</head>
+<body>
+	<h1>SUBJECTS LIST</h1>
+	<form action="add" method="get">
+		<label>Add Subject: </label> 
+		<input type="text" name="item">
+		<input id="addtobestudied" type="submit" value="To Be Studied">
+		<input id="addalreadystudied" type="submit" value="Already Studied">
+	</form>
+	<h2> To Be Studied: </h2>
+		<ul class='list'>
+			<li><input type="checkbox" name="item"> SS&C<a href="#">&#10006;</a></li>
+			<li><input type="checkbox" name="item"> CGV <a href="#">&#10006;</a></li>
+			<li><input type="checkbox" name="item">  WTA<a href="#">&#10006;</a></li>
+			<li><input type="checkbox" name="item"> CC&A <a href="#">&#10006;</a></li>
+		</ul>	
+	<h2> Already Studied: </h2>
+		<ul class='list'>
+			<li><input type="checkbox" name="item" checked> DBMS <a href="#">&#10006;</a></li>
+			<li><input type="checkbox" name="item" checked> CNS <a href="#">&#10006;</a></li>
+			<li><input type="checkbox" name="item" checked> ATC <a href="#">&#10006;</a></li>
+			<li><input type="checkbox" name="item" checked> UP <a href="#">&#10006;</a></li>
+		</ul>
+
+</body>
+</html>
